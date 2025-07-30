@@ -1,0 +1,191 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('https://i.postimg.cc/j2TG7vJG/BULLYDOGGIECLICKERBACKROUND.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+#exit-button {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background-color: #ccc;
+  border: none;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+
+#marketCount {
+  position: fixed;
+  top: 15px;
+  right: 75px;
+  background-color: #ccc;
+  border: none;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 900;
+  transition: background-color 0.3s ease;
+}
+
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding-top: 60px;
+}
+
+/* shop cards */
+
+
+#c1 {
+  background-color: gray;
+  text-align: center;
+  border-radius: 12px;
+  width: 250px;
+  height: 240px;
+  cursor: pointer;
+}
+
+  #c1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+#c2 {
+  background-color: gray;
+  text-align: center;
+  border-radius: 12px;
+  width: 250px;
+  height: 240px;
+  cursor: pointer;
+  gap:20px;
+  direction: grid;
+}
+  #c2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Card3 */
+#c3 {
+  background-color: gray;
+  text-align: center;
+  border-radius: 12px;
+  width: 250px;
+  height: 240px;
+  cursor: pointer;
+}
+  #c3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+
+
+/* Buttons for price */
+
+#c1price {
+  background-color: gray ;
+  font-size: 28px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#c2price {
+  background-color: gray;
+  font-size: 28px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#c3price {
+  background-color: GRAY;
+  font-size: 28px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* The uh design for the popup for buying doggies */
+
+.popup {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-content {
+  background-color: gray;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  width: 300px;
+  height: 200px;
+}
+
+#yes {
+  background-color: white;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  width: 75px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#no {
+  background-color: white;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  width: 75px;
+  height: 50px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 25px;
+  color: #ccc;
+}

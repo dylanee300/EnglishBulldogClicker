@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('https://i.postimg.cc/j2TG7vJG/BULLYDOGGIECLICKERBACKROUND.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#exit-button {
+   position: fixed;
+  right: 20px;
+  padding: 8px 14px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  z-index: 1000;
+}
+
+#Upgrades-button {
+  position: fixed;
+  right: 20px;
+  padding: 8px 14px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  z-index: 1000;
+}
+
+#exit-button {
+  top: 15px;
+}
+
+#Upgrades-button {
+  top: 65px;
+}
+
+#exit-button:hover,
+#Upgrades-button:hover {
+  background-color: #ddd;
+}
+
+.span {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+}
+
+#doggies {
+  font-size: 64px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+#doggie {
+  height: 425px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+#doggie:active {
+  transform: scale(1.5);
+}

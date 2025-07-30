@@ -1,0 +1,67 @@
+body {
+   display: flex;
+    justify-content: center;
+    align-items: center;     
+    height: 100vh;           
+    background-color: #222222          ;
+    color: #1A1A2E;
+  margin: 0;                         
+  height: 100vh;                    
+  background-image: url('https://i.postimg.cc/j2TG7vJG/BULLYDOGGIECLICKERBACKROUND.png');
+  background-size: cover;            
+  background-repeat: no-repeat;       
+  background-position: center center; 
+  background-color: black;            
+}
+
+
+.form {
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    padding: 8px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.6);
+}
+
+input {
+  display: block;            
+  width: 350px;              
+  height: 45px;
+  padding: 10px;             
+  font-size: 18px;          
+  border-radius: 12px;       
+  text-align: center;       
+  border: 1px solid #ccc;    
+  box-sizing: border-box;   
+  margin-bottom: 1.5rem;
+  background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+img {
+    cursor: pointer;
+    height: 300px;
+    align-items: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: auto;
+}

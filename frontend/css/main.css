@@ -1,0 +1,118 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('https://i.postimg.cc/j2TG7vJG/BULLYDOGGIECLICKERBACKROUND.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+    color: aliceblue;
+    margin-left: 20px; 
+    font-size: 35px;
+}
+
+h2 {
+  display: flex;
+  gap: 10px;
+  color: white;
+  margin-left: 30px;
+  font-size: 70px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+
+h1, h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#about {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 18px 36px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  margin: 10px;
+}
+
+#login {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 18px 36px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  margin: 10px;
+}
+
+#store {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 18px 36px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  margin: 10px;
+}
+
+
+#login:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.25);
+}
+
+#store:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.25);
+}
+
+#about:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.25);
+}
+
+#login:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(255, 255, 255, 0.2);
+}
+
+#store:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(255, 255, 255, 0.2);
+}
+
+#about:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(255, 255, 255, 0.2);
+}
+
+#doggieLogo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 150px;
+  height: 100px;
+  height: auto;
+  cursor: pointer;
+}

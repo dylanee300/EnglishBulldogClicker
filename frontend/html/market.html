@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EnglishBulldogClicker | Market</title>
+  <link rel="stylesheet" href="/frontend/css/market.css">
+   <link rel="icon" href="https://i.postimg.cc/vmgGJwjY/English-Bull-Dog.png" type="image/png">
+</head>
+<body>
+
+  <div>
+    <h1>Market</h1>
+  </div>
+
+  <div class="button">
+    <button id="exit-button" onclick="location.href='main.html'">×</button>
+  </div>
+
+  <div class="count" id="marketCount"></div>
+
+  <div class="card-wrapper">
+
+    <div class="card" id="c1">
+      <img src="https://i.postimg.cc/ZqkTpshJ/English-Bull-Dog.png">
+      <button onclick="openPopup()" id="c1price" price="25B">25B</button>
+    </div>
+
+    <div class="card" id="c2">
+      <img src="https://i.postimg.cc/Mprx0ynK/alttdoggie.png">
+      <button id="c2price" onclick="openPopup()" price="40B">40B</button>
+    </div>
+
+    <div class="card" id="c3">
+      <img src="https://i.postimg.cc/rw5Cx9n5/alttdoggie.png">
+      <button id="c3price" onclick="openPopup()" price="75B">75B</button>
+    </div>
+
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <p>Are you sure? This will cost you 25B</p>
+      <button onclick="handleYes()" id="yes">Yes</button>
+      <button onclick="handleNo()" id="no">No</button>
+    </div>
+  </div>
+
+  <script type="module" src="/js/market.js"></script>
+  <script src="/frontend/dist/console.js"></script>
+
+</body>
+</html>
