@@ -31,13 +31,6 @@ client.on('messageCreate', async (message) => {
     return message.reply('ok!');
   }
 
-  if (command === '!doggie') {
-    return message.reply('Bark!');
-  }
-
-  if (command === '!goodBot') {
-    return message.reply('GoodBoy!');
-  }
 
   // Warn command
   if (command === '!warn') {
