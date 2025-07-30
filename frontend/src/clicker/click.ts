@@ -88,3 +88,44 @@ upgradesBtn6.addEventListener("click", () => {
     updateDisplay();
   }
 });
+
+const upgradesBtn7 = document.getElementById("u7") as HTMLImageElement;
+upgradesBtn7.addEventListener("click", () => {
+  if (count >= 75000) {
+    count -= 75000;
+    dpc += 750; 
+    localStorage.setItem("dpc", dpc.toString()); 
+    updateDisplay();
+  }
+});
+
+const upgradesBtn8 = document.getElementById("u8") as HTMLImageElement;
+upgradesBtn8.addEventListener("click", () => {
+  if (count >= 225000) {
+    count -= 225000;
+    dpc += 3000; 
+    localStorage.setItem("dpc", dpc.toString()); 
+    updateDisplay();
+  }
+});
+
+const upgradesBtn9 = document.getElementById("u9") as HTMLImageElement;
+upgradesBtn9.addEventListener("click", () => {
+  if (count >= 2000000) {
+    count -= 2000000;
+    dpc += 10000; 
+    localStorage.setItem("dpc", dpc.toString()); 
+    updateDisplay();
+  }
+});
+
+const upgradesBtn10 = document.getElementById("u10") as HTMLImageElement;
+upgradesBtn10.addEventListener("click", () => {
+  if (count >= 5500000) {
+    count -= 5500000;
+    dpc += 30000; 
+    localStorage.setItem("dpc", dpc.toString()); 
+    updateDisplay();
+  }
+});
+
