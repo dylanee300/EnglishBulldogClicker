@@ -1,0 +1,20 @@
+{
+  "name": "englishbulldogclicker11",
+  "version": "1.0.0",
+  "description": "EnglishBulldogClicker is the first ever English Bulldog CLicker game all open sourced. Created by Dylan, written in typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanee300/EnglishBulldogClicker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylanee300/EnglishBulldogClicker/issues"
+  },
+  "homepage": "https://github.com/dylanee300/EnglishBulldogClicker#readme"
+}
