@@ -24,6 +24,10 @@ noButton.addEventListener("click", () => {
     popup.style.display = "none";
 });
 
+yesButton.addEventListener("click", () => { 
+    popup.style.display = "none;" 
+});
+
 const marketCountDisplay = document.getElementById("marketCount") as HTMLDivElement;
 
 marketCountDisplay.textContent = count.toString();
