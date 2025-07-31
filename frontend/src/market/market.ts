@@ -1,4 +1,5 @@
 import type { MarketItem } from './market';
+import { count } from "./click"; 
 
 const weekOneMarket: MarketItem[] = [
     { name: 'Doggie', img: 'https://i.postimg.cc/ZqkTpshJ/English-Bull-Dog.png', price: 25000000000 }, // 25b
@@ -22,3 +23,8 @@ document.getElementById("c1")?.addEventListener("click", () => {
 noButton.addEventListener("click", () => {
     popup.style.display = "none";
 });
+
+const marketCountDisplay = document.getElementById("marketCount") as HTMLDivElement;
+
+marketCountDisplay.textContent = count.toString();
+
