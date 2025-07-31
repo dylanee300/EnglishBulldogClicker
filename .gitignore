@@ -1,4 +1,4 @@
-dist
-.env
-node_modules
-.log
+dist/
+*.env
+node_modules/
+*.log
