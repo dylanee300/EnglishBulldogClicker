@@ -1,16 +1,16 @@
 import React from 'react';
 import './Home.css';
 import doggie from '../../assets/EnglishBullDog.png';
-import doggie2 from '../../assets/alttdoggie.png';
-
+import doggie2 from '../../assets/alttdoggie.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 
-function Home() {
+
+function Home({ onLogin, onPlay }) {
   return (
     <div>
       <h1 id="main">EnglishBulldogClicker</h1>
-      <button id="login">Login</button>
+      <button id="login" onClick={onLogin}>Login</button>
 
       <button 
         id="discord"
@@ -22,7 +22,7 @@ function Home() {
       <img src={doggie} alt="doggie" id="doggie" draggable="false" />
       <img src={doggie2} alt="doggie" id="doggie2" draggable="false" />
       
-      <button id="play">Play!</button>
+      <button id="play" onClick={onPlay}>Play!</button>
       <p>
         EnglishBulldogClicker is the first ever English Bulldog Clicker game out there.<br /> 
         Written in ReactJS, made by Dylan.

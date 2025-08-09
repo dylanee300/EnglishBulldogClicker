@@ -1,0 +1,15 @@
+body {
+  background-image: url('https://i.postimg.cc/Jh7mVN2J/backround.png');
+  background-size: cover;       
+  background-repeat: no-repeat; 
+  background-position: center;  
+  margin: 0;                    
+  height: 100vh;               
+}
+
+
+#login {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+}
