@@ -1,1 +1,1 @@
-EnglishBulldogClicker is the first-ever English Bulldog clicker game, written in React.js by Dylan!"
+EnglishBulldogClicker is the first-ever English Bulldog clicker game, written in React.js by Dylan.
