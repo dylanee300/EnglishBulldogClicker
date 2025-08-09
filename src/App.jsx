@@ -6,7 +6,7 @@ function App() {
   const [showLogin, setShowLogin] = useState(false);
 
   const handleLoginClick = () => setShowLogin(true);
-  const handlePlayClick = () => console.log("Redirecting to Login...");
+  const handlePlayClick = () => setShowLogin(true);
 
 
   return (

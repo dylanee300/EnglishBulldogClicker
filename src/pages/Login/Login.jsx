@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../components/Buttons.css';
+import './Login.css';
 
 function Login() {
     const handleSubmit = (event) => {
@@ -9,14 +9,16 @@ function Login() {
 
     return (
         <div>
-            <form onSubmit={handleSubmit}>
-                <h1>Login</h1>
-                <input type="text" placeholder="Username" required />
-                <br />
-                <input type="password" placeholder="Password" required />
-                <br />
-                <button type="submit" className="custom-button">Login</button>
-            </form>
+            <h1 id="login2">Login</h1>
+            <div className="form-container">
+                <form onSubmit={handleSubmit}>
+                    <input type="text" placeholder="Username" required />
+                    <br />
+                    <input type="password" placeholder="Password" required />
+                    <br />
+                    <button type="submit" className="button">Login</button>
+                </form>
+            </div>
         </div>
     );
 }

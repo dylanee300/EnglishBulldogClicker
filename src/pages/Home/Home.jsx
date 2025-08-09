@@ -8,7 +8,7 @@ import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 function Home({ onLogin, onPlay }) {
   return (
-    <div>
+    <div className="home-wrapper">
       <h1 id="main">EnglishBulldogClicker</h1>
       <button id="login" onClick={onLogin}>Login</button>
 
