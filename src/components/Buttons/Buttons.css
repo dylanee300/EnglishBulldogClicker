@@ -1,0 +1,14 @@
+.button {
+  position: absolute;
+  top: 10px;
+  right: calc(10px + 6px + 80px);
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: gray;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  font-family: Arial, sans-serif;
+  margin: 6px;
+}

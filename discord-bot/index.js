@@ -1,0 +1,1 @@
+// The bot for EnglishBulldogClicker Discord server
