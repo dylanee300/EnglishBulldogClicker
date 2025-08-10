@@ -63,6 +63,7 @@ body {
   color: black;
   margin: 20px;
   margin-top: 550px;
+  display: none;
 }
 
 
@@ -83,6 +84,7 @@ body {
   height: auto;
   display: block;
   cursor: pointer;
+  display: none;
 }
 
 #doggie2 {
@@ -90,4 +92,5 @@ body {
   height: auto;
   display: block;
   cursor: pointer;  
+  display: none;
 }
