@@ -1,7 +1,7 @@
 import React from 'react';
-import './Login.css';
+import './Register.css';
 
-function Login() {
+function Register() {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log('Form submitted');
@@ -9,19 +9,22 @@ function Login() {
 
     return (
         <div>
-            <h1 id="login2">Login</h1>
+            <h1 id="register">Register</h1>
             <div className="form-container">
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="Username" required />
                     <br />
                     <input type="password" placeholder="Password" required />
                     <br />
-                    <button type="submit" className="button">Login</button>
-                    <p id="reg">Don't have an account? <a href="/register">Register</a></p>
+                    <input type="text" placeholder="Discord (Optional)" />
+                    <br />
+                    <button type="submit" className="button">Register</button>
+                    <br />
+
                 </form>
             </div>
         </div>
     );
 }
 
-export default Login;
+export default Register;

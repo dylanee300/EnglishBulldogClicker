@@ -1,27 +1,30 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   display: flex;
   flex-direction: column;
-    height: 100%;
-  margin: 0;
-  font-family: Arial, sans-serif;
+  min-height: 100vh; /* fills screen height */
   background-image: url('https://i.postimg.cc/Jh7mVN2J/backround.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: white;
+  font-family: Arial, sans-serif;
 }
 
-#register {
+#login2 {
   font-size: 2.5rem;
   text-align: center;
   user-select: none;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-  margin: 20px 0 0 0;
-  flex-shrink: 0;
+  margin: 20px 0;
 }
 
 .form-container {
-  flex-grow: 1;      
+  flex: 1; /* fills the remaining space */
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -39,24 +42,7 @@ form {
   width: 100%;
 }
 
-form input[type="text"] {
-  width: 80%;
-  margin: 12px 0;
-  padding: 12px 15px;
-  background-color: #d3d3d3;
-  border: 2px solid #888;
-  border-radius: 8px;
-  font-size: 1rem;
-  color: #222;
-  transition: border-color 0.3s ease;
-}
-
-form input[type="text"]:focus {
-  border-color: #555;
-  outline: none;
-  box-shadow: 0 0 8px #666;
-}
-
+form input[type="text"],
 form input[type="password"] {
   width: 80%;
   margin: 12px 0;
@@ -69,7 +55,7 @@ form input[type="password"] {
   transition: border-color 0.3s ease;
 }
 
-form input[type="password"]:focus {
+form input:focus {
   border-color: #555;
   outline: none;
   box-shadow: 0 0 8px #666;
@@ -94,14 +80,4 @@ form button.button:hover {
 form button.button:focus {
   outline: none;
   background-color: #555;
-}
-
-#reg {
-  font-size: 18px;
-  color: black;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }
