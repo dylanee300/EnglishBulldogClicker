@@ -76,7 +76,7 @@ form input[type="password"]:focus {
 }
 
 form button.button {
-  margin-top: 20px;
+  margin-top: 25px;
   background-color: #888;
   color: white;
   border: none;
@@ -99,6 +99,7 @@ form button.button:focus {
 #reg {
   font-size: 18px;
   color: black;
+  margin-top: 10px;
 }
 
 a {
