@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Dashboard.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import './Dashboard.css';
 import Stats from '../Stats/Stats';
 import Click from '../Click/Click';
 import Upgrades from '../Upgrades/Upgrades';
