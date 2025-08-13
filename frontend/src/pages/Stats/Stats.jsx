@@ -12,7 +12,7 @@ let dpc = user.dpc;
 function Stats() {
     return (
         <div>
-            <h1 id="mainStats">Stats</h1>
+            <h1 id="mainStats"></h1>
 
             <div className="pfp">
                 <img src={Doggie} alt="" draggable="false" id="pfpdoggie"/>

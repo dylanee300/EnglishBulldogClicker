@@ -6,3 +6,10 @@
     transform: translate(-50%, -50%);
     width: 300px;
 }
+
+#display {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+}

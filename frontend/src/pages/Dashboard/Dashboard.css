@@ -41,8 +41,8 @@ body {
 }
 
 .dashboard-menu li {
-  padding: 12px;
-  margin-bottom: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
   background-color: #222;
   border-radius: 5px;
   cursor: pointer;
