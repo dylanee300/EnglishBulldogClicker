@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import '/public/all.min.css';
 import './Dashboard.css';
 import Stats from '../Stats/Stats';
 import Click from '../Click/Click';
@@ -33,7 +33,7 @@ function Dashboard() {
   return (
     <div className="dashboard">
       <div className="sidebar">
-        <h1 id="name">{name}</h1>
+        <h1 id="name"></h1>
         <ul className="dashboard-menu">
           <li onClick={() => setActivePage('stats')}><i className="fas fa-chart-line"></i> Stats</li>
           <li onClick={() => setActivePage('click')}><i className="fas fa-hand-pointer"></i> Click</li>

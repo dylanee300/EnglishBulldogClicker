@@ -3,11 +3,11 @@ import './Stats.css';
 import Doggie from '../../assets/EnglishBullDog.png';
 
 
-let user = "dylanee" // for now til i add acounts and stuff then wel use user data..
-let doggiesUnlocked = 3;
-let doggies = 4000;
-let doggiesBought = 3;
-let dpc = 100;
+let user = "Dylanee" // for now til i add acounts and stuff then wel use user data..
+let doggiesUnlocked = user.doggiesUnlocked;
+let doggies = user.doggies;
+let doggiesBought = user.doggiesBought;
+let dpc = user.dpc;
 
 function Stats() {
     return (
