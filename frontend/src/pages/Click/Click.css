@@ -1,11 +1,18 @@
 #clickerDoggie {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    width: 300px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  display: inline-block;
+  transition: transform 0.2s ease;
 }
+
+#clickerDoggie:active {
+  transform: translate(-50%, -60%) scale(1.3);
+}
+
 
 #display {
     color: white;
