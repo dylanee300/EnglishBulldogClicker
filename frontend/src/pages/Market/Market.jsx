@@ -1,7 +1,9 @@
 import React from 'react';
 
 function Market() {
-    return <div>Market Placeholder</div>;
+    return <div>
+        
+    </div>;
 }
 
 export default Market;

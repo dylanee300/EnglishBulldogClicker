@@ -8,19 +8,17 @@ function Register() {
     };
 
     return (
-        <div>
-            <h1 id="register">Register</h1>
-            <div className="form-container">
-                <form onSubmit={handleSubmit}>
-                    <input type="text" placeholder="Username" required />
+        <div className="register-container">
+            <div className="register-wrapper">
+                <h1 id="register">Register</h1>
+                <form id="registerForm" onSubmit={handleSubmit}>
+                    <input type="text" id="username" placeholder="Username" required />
                     <br />
-                    <input type="password" placeholder="Password" required />
+                    <input type="password" id="password" placeholder="Password" required />
                     <br />
-                    <input type="text" placeholder="Discord (Optional)" />
+                    <input type="text" id="discord" placeholder="Discord (Optional)" />
                     <br />
-                    <button type="submit" className="button">Register</button>
-                    <br />
-
+                    <button type="submit" id="registerButton">Register</button>
                 </form>
             </div>
         </div>

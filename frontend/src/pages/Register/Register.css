@@ -1,83 +1,108 @@
-html, body, #root {
+html {
   height: 100%;
-  margin: 0;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* fills screen height */
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
   background-image: url('https://i.postimg.cc/Jh7mVN2J/backround.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: white;
-  font-family: Arial, sans-serif;
 }
 
-#login2 {
-  font-size: 2.5rem;
-  text-align: center;
-  user-select: none;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-  margin: 20px 0;
-}
-
-.form-container {
-  flex: 1; /* fills the remaining space */
+.register-container {
   display: flex;
   justify-content: center;
-  align-items: center; 
-  padding: 20px;
-  box-sizing: border-box;
+  align-items: center;
+  height: 100vh;
 }
 
-form {
-  background-color: rgba(50, 50, 50, 0.75);
-  padding: 30px 25px;
+.register-wrapper {
+  background-color: rgba(50,50,50,0.75);
+  padding: 50px 40px;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 0 20px rgba(30, 30, 30, 0.7);
-  max-width: 420px;
+  max-width: 500px;
   width: 100%;
+  box-shadow: 0 0 20px rgba(30,30,30,0.7);
 }
 
-form input[type="text"],
-form input[type="password"] {
-  width: 80%;
-  margin: 12px 0;
-  padding: 12px 15px;
+#register {
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+  margin-bottom: 25px;
+}
+
+#username {
+  width: 90%;
+  margin: 14px 0;
+  padding: 14px 18px;
   background-color: #d3d3d3;
   border: 2px solid #888;
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #222;
   transition: border-color 0.3s ease;
 }
 
-form input:focus {
+#username:focus {
   border-color: #555;
   outline: none;
-  box-shadow: 0 0 8px #666;
+  box-shadow: 0 0 10px #666;
 }
 
-form button.button {
-  margin-top: 20px;
+#password {
+  width: 90%;
+  margin: 14px 0;
+  padding: 14px 18px;
+  background-color: #d3d3d3;
+  border: 2px solid #888;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: #222;
+  transition: border-color 0.3s ease;
+}
+
+#password:focus {
+  border-color: #555;
+  outline: none;
+  box-shadow: 0 0 10px #666;
+}
+
+#discord {
+  width: 90%;
+  margin: 14px 0;
+  padding: 14px 18px;
+  background-color: #d3d3d3;
+  border: 2px solid #888;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: #222;
+  transition: border-color 0.3s ease;
+}
+
+#discord:focus {
+  border-color: #555;
+  outline: none;
+  box-shadow: 0 0 10px #666;
+}
+
+#registerButton {
+  margin-top: 30px;
   background-color: #888;
   color: white;
   border: none;
   border-radius: 8px;
-  padding: 12px 35px;
-  font-size: 1.1rem;
+  padding: 14px 45px;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-form button.button:hover {
+#registerButton:hover {
   background-color: #666;
-}
-
-form button.button:focus {
-  outline: none;
-  background-color: #555;
 }
