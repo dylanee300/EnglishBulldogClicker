@@ -27,10 +27,36 @@ client.on('messageCreate', async (message) => {
     return message.reply('Pong!');
   }
 
-  if (command === '!test') {
-    return message.reply('ok!');
+
+  // help
+   if (command === '!help') {
+    return message.reply('Available commands: !ping, !help, !warn');
+  }
+  
+
+  if (command === '!clear') {
+    const amount = parseInt(args[0]);
+    if (isNaN(amount) || amount < 1 || amount > 100) {
+      return message.reply('Please provide a number between 1 and 100.');
+    }
+
+    await message.channel.bulkDelete(amount, true);
+    message.channel.send(`Cleared ${amount} messages.`);
   }
 
+  if (command === '!kick') {
+    const target = message.mentions.members.first();
+    if (!target) return message.reply('Please mention a user to kick.');
+
+    // kick command
+    try {
+      await target.kick();
+      message.channel.send(`${target.user.tag} has been kicked.`);
+    } catch (err) {
+      console.error(err);
+      message.channel.send('I was unable to kick the member.');
+    }
+  }
 
   // Warn command
   if (command === '!warn') {
