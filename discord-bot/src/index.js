@@ -30,7 +30,7 @@ client.on('messageCreate', async (message) => {
 
   // help
    if (command === '!help') {
-    return message.reply('Available commands: !ping, !help, !warn');
+    return message.reply('Available commands: !ping, !help, !warn, !warnsm, !clear, !kick');
   }
   
 
