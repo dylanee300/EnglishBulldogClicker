@@ -102,3 +102,31 @@
     margin-left: 10px;
     color: black;
 }
+
+/* Mobile ui.. */
+
+@media (max-width: 768px) {
+  #doggie2 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #Discord {
+    /*display: none; */
+  }
+}
+
+@media (max-width: 768px) {
+  #main {
+    font-size: 30px; 
+    margin-top: 20px;
+    color: black;
+  }
+}
+
+@media (max-width: 768px) {
+  #doggie {
+    margin: 0;
+  }
+}
