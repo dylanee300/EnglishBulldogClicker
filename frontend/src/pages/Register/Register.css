@@ -106,3 +106,10 @@ body {
 #registerButton:hover {
   background-color: #666;
 }
+
+@media (max-width: 768px) {
+  .register-wrapper {
+    width: 400px;
+    height: 500px; 
+  }
+}

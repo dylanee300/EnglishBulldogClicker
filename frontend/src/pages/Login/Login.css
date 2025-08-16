@@ -25,7 +25,6 @@ body {
   padding: 50px 40px;
   border-radius: 12px;
   text-align: center;
-  max-width: 500px;
   width: 100%;
   box-shadow: 0 0 20px rgba(30,30,30,0.7);
 }
@@ -98,4 +97,13 @@ body {
 #reg a {
   text-decoration: none;
   color: #fff;
+}
+
+/* mobile ui */
+
+@media (max-width: 768px) {
+  .form-wrapper {
+    width: 400px;
+   /* height: 450px; */
+  }
 }
