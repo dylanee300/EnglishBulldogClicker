@@ -7,7 +7,9 @@ function Login() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        navigate('/dashboard');
+        setTimeout(() => {
+            navigate('/dashboard');
+        }, 500);
     };
 
     return (
