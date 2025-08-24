@@ -15,8 +15,19 @@
 
 
 #display {
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    text-align: center;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  background-color: #222;
+  width: 250px;
+  border-radius: 10px;
+  margin: 20px auto 0 auto;
+  display: block;
+}
+
+.click-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }

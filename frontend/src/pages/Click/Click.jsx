@@ -14,12 +14,12 @@ function click() {
             count++;
             localStorage.setItem('clickCount', count);
             if (display) {
-                display.innerText = count;
+                display.innerText = '🐶 ' + count;
             }
         };
 
         if (display) {
-            display.innerText = count;
+            display.innerText = '🐶' + count;
         }
 
         if (doggie) {
